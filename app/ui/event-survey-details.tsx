@@ -6,11 +6,11 @@ import EventFormData from '@/app/interfaces/event-form-data'
 
 export default function EventSurveyDetails() {
     const [formData, setFormData] = useState<EventFormData>({
-        eventName: '',
-        eventDate: '',
-        eventLocation: '',
-        eventDescription: '',
-        eventPlace: '',
+        eventName: "",
+        eventDate: "",
+        eventLocation: "",
+        eventDescription: "",
+        eventPlace: "",
         eventDoc : undefined
     });
 

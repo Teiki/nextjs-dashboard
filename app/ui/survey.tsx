@@ -10,9 +10,9 @@ import {useForm} from 'react-hook-form';
 import EventSurveyDetails from '@/app/ui/event-survey-details'
 
 const events = [
-  { id: 1, name: 'Cinéma, Théatre, Festival', unavailable: false },
-  { id: 2, name: 'Piscine', unavailable: false },
-  { id: 3, name: 'Banc de sable', unavailable: false },
+  { id: 1, name: "Cinéma, Théatre, Festival", unavailable: false },
+  { id: 2, name: "Piscine", unavailable: false },
+  { id: 3, name: "Banc de sable", unavailable: false },
 ]
 
 const onSubmit = (data:any) => {
